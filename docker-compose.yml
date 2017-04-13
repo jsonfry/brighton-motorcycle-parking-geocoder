@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - ./package.json:/usr/src/app/package.json
+      - ./geocode.js:/usr/src/app/geocode.js
+      - ./road-names:/usr/src/app/road-names
+      - ./bays.json:/usr/src/app/bays.json

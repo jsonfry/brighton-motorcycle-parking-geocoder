@@ -1,0 +1,14 @@
+{
+  "name": "brighton-motorcycle-parking-geocoder",
+  "version": "1.0.0",
+  "description": "Geocodes the road names from Brighton & Hove council into coordinates",
+  "main": "geocode.js",
+  "scripts": {
+    "start": "node geocode.js"
+  },
+  "author": "Jason Fry",
+  "dependencies": {
+    "request": "2.81.0",
+    "bluebird": "3.5.0"
+  }
+}
